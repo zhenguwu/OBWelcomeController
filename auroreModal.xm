@@ -31,7 +31,7 @@
     if ([foundWindow class] == [%c(SBHomeScreenWindow) class]) {
         self.homeWindowTemp = (SBHomeScreenWindow*)foundWindow;
         self.origWindowLevel = foundWindow.windowLevel;
-        foundWindow.windowLevel = 26;
+        foundWindow.windowLevel = 26; //Place it above floatingdockplus13
     }
     [foundWindow.rootViewController presentViewController:self animated:YES completion:nil];
 }
