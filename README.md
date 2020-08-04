@@ -1,3 +1,3 @@
 # customWelcomeControllerIOS
 
-Add tweakname_PRIVATE_FRAMEWORKS = OnBoardingKit in Makefile
+Requires iOS 13+ SDKS and the OnBoardingKit must be linked as a private framework
